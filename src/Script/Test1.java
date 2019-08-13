@@ -13,6 +13,8 @@ public class Test1 extends Generic_class
     	 UserNamePage u1=new UserNamePage(driver);
     	 u1.enterUn();
     	 u1.clicknext();
+      System.out.println("hii");
+      
     	 
      }
 
