@@ -24,8 +24,8 @@ public class Generic_class implements All_Constant {
    {
 	   driver=new FirefoxDriver();
 	   Generic_Webele w1=new Generic_Webele();
-	      String url = w1.property12("./pro.properties", "url");
-	   driver.get(url);
+	      //String url = w1.property12("./pro.properties", "url");
+	   driver.get("https://www.gmail.com");
 	   driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
    }
 //	@AfterMethod()
